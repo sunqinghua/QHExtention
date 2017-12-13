@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "QHExtention"                #名称
-s.version      = “0.0.2”                #版本号
+s.version      = “0.0.3”                #版本号
 s.summary      = "QHExtention desc"        #简短介绍
 s.description  = <<-DESC
 私有Pods测试
