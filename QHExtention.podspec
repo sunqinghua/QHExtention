@@ -21,7 +21,7 @@ s.source       = { :git => "https://github.com/sunqinghua/QHExtention.git", :tag
 s.platform     = :ios, "9.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
 s.requires_arc = true                    #是否使用ARC
 
-s.source_files  = "QHExtention/QHExtention/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+s.source_files  = "QHExtention/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
 
 
 s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
