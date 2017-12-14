@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "QHExtention"                #名称
-s.version      = "0.0.1"                 #版本号
+s.version      = “0.0.2”                 #版本号
 s.summary      = "QHExtention desc"        #简短介绍
 s.description  = <<-DESC
 私有Pods测试
@@ -21,7 +21,7 @@ s.source       = { :git => "https://github.com/sunqinghua/QHExtention.git", :tag
 s.platform     = :ios, "9.0"            #支持的平台及版本，这里我们呢用swift，直接上9.0
 s.requires_arc = true                    #是否使用ARC
 
-s.source_files  = "QHExtention/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
+s.source_files  = "Extention/*.{h,m}"    #OC可以使用类似这样"Classes/**/*.{h,m}"
 
 
 s.frameworks = 'UIKit', 'QuartzCore', 'Foundation'    #所需的framework,多个用逗号隔开
