@@ -7,6 +7,7 @@
 //
 
 #import "DRCalculateLayoutSize.h"
+#import <SDVersion/SDVersion.h>
 
 @implementation DRCalculateLayoutSize
 
